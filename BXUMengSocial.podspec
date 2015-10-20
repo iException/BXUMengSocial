@@ -7,7 +7,7 @@
   s.homepage = "http://dev.umeng.com/social/ios/quick-integration"
   s.license = { :type => "Copyright", :text => "    Copyright 2011 - 2013 UMeng.com. All rights reserved.\n" }
   s.authors = { "UMeng" => "support@umeng.com" }
-  s.source = "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_4.2.5.zip"
+  s.source = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_4.2.5.zip" }
   s.source_files = [
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/Header/*.h",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
