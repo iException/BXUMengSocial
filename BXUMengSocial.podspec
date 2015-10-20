@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'UMengSocial SDK used by Baixing. Official home page : http://dev.umeng.com/social/ios/quick-integration'
   s.homepage = 'https://github.com/iException/BXUMengSocial'
   s.source   = { :git => "https://github.com/iException/BXUMengSocial.git", :tag => s.version.to_s }
-  s.source_files = 'Pod/*/*'
+  s.source_files = 'Pod/*/*/*/*'
   s.ios.deployment_target = '5.0'
   s.libraries = [ "iconv", "sqlite3", "stdc++", "z" ]
   s.requires_arc = true
