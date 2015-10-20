@@ -22,7 +22,6 @@
   ]
   s.preserve_paths = [
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/libUMSocial_Sdk_4.2.5.a",
-    "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/libUMSocial_Sdk_Comment_4.2.5.a",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
@@ -32,7 +31,6 @@
   ]
   s.libraries = [
     "UMSocial_Sdk_4.2.5",
-    "UMSocial_Sdk_Comment_4.2.5",
     "SocialQQ",
     "SocialWechat",
     "z",
