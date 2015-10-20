@@ -13,12 +13,10 @@
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Sina/*.h",
-    "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/SinaSSO/*.h"
   ]
   s.resources = [
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/UMSocialSDKResourcesNew.bundle",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
-    "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/SocialSDKXib/*.xib",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/{en,zh-Hans}.lproj"
   ]
@@ -30,7 +28,6 @@
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Sina/libSocialSina.a",
-    "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libSocialSinaSSO.a",
     "Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libWeiboSDK.a"
   ]
   s.libraries = [
@@ -44,11 +41,10 @@
     "iconv",
     "WeChatSDK",
     "SocialSina",
-    "SocialSinaSSO",
     "WeiboSDK"
   ]
   s.xcconfig = {
-    'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/** $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/ $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/** $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Sina/** $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/SinaSSO/**",
+    'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_4.2.5/** $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/ $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Wechat/** $(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/Sina/**",
     :FRAMEWORK_SEARCH_PATHS => "$(PODS_ROOT)/BXUmengSocial/Umeng_SDK_Social_iOS_ARM64_4.2.5/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/"
   }
   s.frameworks = [
